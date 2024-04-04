@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>add_worker</title>
+    <link rel="stylesheet" href="../../static/main/css/main.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+        <a href="../../index.html"><img src="../../static/main/img/logo.png" alt=""></a>
+    </div>
+    <div class="s-head">
+        <ul>
+        <li><button onclick="window.location.href='../../index.html'" class="head-button">Головна сторінка</li>
+        <li><button onclick="window.location.href='../../templates/main/add_worker.html'" class="head-button">Додати працівника</li>
+        <li><button onclick="window.location.href='../../templates/main/add_office.html'" class="head-button">Додати офіс</li>
+        <li><button onclick="window.location.href='../../templates/main/del_office.html'" class="head-button">Видалити офіс</li>
+        <li><button onclick="window.location.href='../../templates/main/salary.html'" class="head-button">Список робітників</li>
+        </ul>
+    </div>
+</header>
+    
+    <main>
+        <h1>Додати робітника</h1>
+        <form class="form">
+            <div class="form-group">
+              <input class="form-input" placeholder=" ">
+              <label class="form-label">Ім'я</label>
+            </div>
+            <div class="form-group">
+                <input class="form-input" placeholder=" ">
+                <label class="form-label">Прізвище</label>
+              </div>
+            <div class="form-group">
+                <input class="form-input" placeholder=" ">
+                <label class="form-label">Дата народження</label>
+            </div>
+            <div class="form-group">
+                <input class="form-input" placeholder=" ">
+                <label class="form-label">Дата прийняття на роботу</label>
+            </div>
+            <div class="form-group">
+              <label>Назви офісів:</label><br>
+              <input type="checkbox" id="office1" name="office1">
+              <label for="office1">Офіс 1</label><br>
+              <input type="checkbox" id="office2" name="office2">
+              <label for="office2">Офіс 2</label><br>
+              <input type="checkbox" id="office3" name="office3">
+              <label for="office3">Офіс 3</label>
+            </div>
+            <div class="form-group">
+                <input class="form-input" placeholder=" ">
+                <label class="form-label">Професія</label>
+              </div>
+              <div class="form-group">
+                <input class="form-input" placeholder=" ">
+                <label class="form-label">Зарплата</label>
+              </div>
+            <button type="submit" class="head-button">Відправити</button>
+          </form>
+        
+    </main>
+    <footer>
+        <p>&copy; 2024 Workers. Усі права захищено.</p>
+    </footer>
+</body>
+</html>
